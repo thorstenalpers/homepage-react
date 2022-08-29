@@ -9,14 +9,15 @@ export interface ICvEntry {
 
 const jobEntries: Array<ICvEntry> = [
   {
-    company: "Vattenfall Enrgy Trading GmbH",
+    company: "Vattenfall Energy Trading GmbH",
     date: "since 05/2021",
     logo: "./images/Vattenfall.jpg",
     companyUrl: "https://energysales.vattenfall.de/",
     position: "Senior Softwareentwickler",
     activities: [
       "Fullstack: Backend, Frontend, E2E-Testen, Support und DevOps",
-      "Neuentwicklung<ul><li>Asp .Net Core, Kubernetes und RabbitMQ</li> </ul>",
+      "Neuentwicklung<ul><li>Scrum, Full Stack, C#, Asp.net 5 + 6, Azure und Kubernetes</li> </ul>",
+      "Weiterwicklungen<ul><li>Scrum, Full Stack, C#, Asp.net 4.7, Azure VM und Appservice</li> </ul>",
     ],
   },
   {
@@ -39,7 +40,7 @@ const jobEntries: Array<ICvEntry> = [
     position: "Senior Associate",
     activities: [
       "Enwicklung mit Kanban",
-      "Fullstack: Backend, Frontend, E2E-Testen, Support, DevOps und PO",
+      "Fullstack: Backend, Frontend, E2E-Testen, Support und DevOps",
       "1 Jahr Weiterentwicklung<ul><li>Javascript, Asp .Net 4.6.2 MVC, .Net Core 2+3, Selenium und Azure Cloud mit Docker</li> </ul>",
     ],
   },
@@ -74,13 +75,13 @@ const jobEntries: Array<ICvEntry> = [
     date: "01/2011 - 08/2017",
     logo: "./images/cpi.svg",
     companyUrl: "https://www.cranepi.com/",
-    position: "Softwareentwickler",
+    position: "Software Engineer",
     activities: [
       "Entwicklung mit Kanban und Scrum",
-      "ca. 1 Jahr: Zeiterfassungssystem. <ul> <li>Play Framework, Java, Scala, HTML5, CSS3 und Bootstrap</li> </ul>",
-      "ca. 5 Jahre: Statistische Parametern zur Kompensation von Sensormesswerten. <ul> <li>C# mit WPF, C++ mit QT, Python und Octave</li> </ul>",
-      "ca. 3 Jahre: Entwicklung von Software für Dauertests von Münzprüfern und Hoppern, <ul><li>C++ mit QT</li></ul>",
-      "ca. 1 Jahr Embedded Software <ul><li>I2C, SPI und USB</li></ul>",
+      "ca. 4 Jahre Webentwicklung mit <ul><li>C#, Asp.net, Java, Angular, HTML und Javascript</li> </ul>",
+      "ca. 4 Jahre Algoentwicklung mit <ul><li>Matlab, Python, C#, C++ und Qt</li> </ul>",
+      "ca. 3 Jahre Desktopapplikationsentwicklung mit <ul><li>C++, Qt und C#</li> </ul>",
+      "ca. 0,5 Jahre Embedded Softwareentwicklung auf Mikrokontrollern mit <ul><li>C</li> </ul>",
       "Betreuung von Praktikanten",
     ],
   },
