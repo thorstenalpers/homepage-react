@@ -10,7 +10,7 @@ export interface ICvEntry {
 const jobEntries: Array<ICvEntry> = [
   {
     company: "Vattenfall Energy Trading GmbH",
-    date: "since 05/2021",
+    date: "05/2021 - 04/2023",
     logo: "./images/Vattenfall.jpg",
     companyUrl: "https://energysales.vattenfall.de/",
     position: "Senior Softwareentwickler",
