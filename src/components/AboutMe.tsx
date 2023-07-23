@@ -22,7 +22,7 @@ const AboutMe = () => {
               "Ich bin ein Fullstack Softwareentwickler.",
               "Ich bin ein Teamplayer.",
               "Ich bin ein Softwarearchitekt.",
-              "Aktuell interessieren mich Microservices, Kubernetes, .Net Core, Typescript und KI."
+              "Aktuell interessieren mich Microservices, Kubernetes, .Net Core und KI."
             ]}
             startDelay={1000}
             typeSpeed={55}

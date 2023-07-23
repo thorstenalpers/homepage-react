@@ -25,10 +25,9 @@ function init() {
     1,
     20000
   );
-  camera.position.set(-15000, 2000, 10000);
+  camera.position.set(197, 56, -20);
 
   // Sun
-
   sun = new THREE.Vector3();
 
   // Water
@@ -59,7 +58,7 @@ function init() {
   // Skybox
 
   var sky = new Sky();
-  sky.scale.setScalar(10000);
+  sky.scale.setScalar(1000);
   scene.add(sky);
 
   var uniforms = sky.material.uniforms;
@@ -70,8 +69,8 @@ function init() {
   uniforms["mieDirectionalG"].value = 0.8;
 
   var parameters = {
-    inclination: 0.49,
-    azimuth: 0.205,
+    inclination: 0.484,
+    azimuth: 0.2015,
   };
 
   var pmremGenerator = new THREE.PMREMGenerator(renderer);
@@ -88,7 +87,8 @@ function init() {
     water.material.uniforms["sunDirection"].value.copy(sun).normalize();
 
     scene.environment = pmremGenerator.fromScene(sky).texture;
-  }
+    console.log(camera.position)
+}
 
   updateSun();
 
@@ -108,6 +108,7 @@ function onWindowResize() {
   camera.updateProjectionMatrix();
 
   renderer.setSize(container.offsetWidth, container.offsetHeight);
+  // console.log(camera.position)
 }
 
 function animate() {
@@ -116,10 +117,7 @@ function animate() {
 }
 
 function render() {
-  var time = performance.now() * 0.001;
-
-  water.material.uniforms["time"].value += 1.0 / 60.0;
-
+  water.material.uniforms["time"].value += 1.0 / 75.0;
   renderer.render(scene, camera);
 }
 

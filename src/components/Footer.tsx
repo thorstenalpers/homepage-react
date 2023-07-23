@@ -17,7 +17,7 @@ const Footer = () => {
       <br />
       <br />
       <ReactPlayer
-        url="https://www.youtube.com/watch?v=2iXvkSir_Ow"
+        url="https://www.youtube.com/watch?v=nTAYmMKSIaw"
         height={200}
         width={"auto"}
         config={playerConfig}
