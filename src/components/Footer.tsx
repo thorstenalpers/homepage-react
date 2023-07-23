@@ -17,11 +17,13 @@ const Footer = () => {
       <br />
       <br />
       <ReactPlayer
+        loop={true}
         url="https://www.youtube.com/watch?v=nTAYmMKSIaw"
         height={200}
         width={"auto"}
         config={playerConfig}
       />
+      <p>Bacardi trinke ich nicht während der Arbeit! :)</p>
     </Fragment>
   );
 };
