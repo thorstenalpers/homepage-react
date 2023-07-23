@@ -22,7 +22,7 @@ const Footer = () => {
         width={"auto"}
         config={playerConfig}
       />
-      <p>Bacardi trinke ich nicht während der Arbeit! :)</p>
+      <p>Bacardi trinke ich nicht in der Woche und sonst auch nur selten! :)</p>
     </Fragment>
   );
 };
