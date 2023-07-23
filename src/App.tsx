@@ -5,7 +5,7 @@ import { HashRouter } from "react-router-dom";
 import NavMenu from "./components/NavMenu";
 import Skills from "./components/Skills";
 import Cv from "./components/Cv";
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import "./custom.css";
 import Footer from "./components/Footer";
 
@@ -16,7 +16,7 @@ const App = () => {
     <Container>
       <HashRouter>
         <NavMenuWithRouter />
-        <br />
+        <Row id="spacer"> </Row>
         <Switch>
           <Route exact path="/Home" component={AboutMe} />
           <Route path="/Kenntnisse" component={Skills} />
