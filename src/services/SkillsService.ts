@@ -9,6 +9,10 @@ const skills: Array<ISkill> = [
     value: 90,
   },
   {
+    name: "Kubernetes",
+    value: 90,
+  },  
+  {
     name: "ASP.net Core",
     value: 80,
   },
@@ -21,9 +25,13 @@ const skills: Array<ISkill> = [
     value: 80,
   },
   {
-    name: "ASP.net MVC 5",
-    value: 70,
+    name: "RabbitMQ",
+    value: 80,
   },
+  {
+    name: "Azure",
+    value: 70,
+  }, 
   {
     name: "HTML",
     value: 60,
@@ -39,6 +47,10 @@ const skills: Array<ISkill> = [
   {
     name: "Software Architektur",
     value: 60,
+  }, 
+  {
+    name: "Angular",
+    value: 60,
   },
   {
     name: "Sql",
@@ -49,7 +61,7 @@ const skills: Array<ISkill> = [
     value: 50,
   },
   {
-    name: "Azure",
+    name: "Docker",
     value: 50,
   },
   {
@@ -57,15 +69,7 @@ const skills: Array<ISkill> = [
     value: 40,
   },
   {
-    name: "RabbitMQ",
-    value: 40,
-  },
-  {
     name: "Typescript",
-    value: 40,
-  },
-  {
-    name: "React",
     value: 40,
   },
   {
@@ -73,28 +77,24 @@ const skills: Array<ISkill> = [
     value: 40,
   },
   {
+    name: "React",
+    value: 30,
+  },
+  {
     name: "Powershell",
     value: 30,
   },
   {
-    name: "Angular",
-    value: 20,
-  },
-  {
     name: "Python",
-    value: 20,
+    value: 10,
   },
   {
     name: "Java",
-    value: 20,
+    value: 10,
   },
   {
     name: "Matlab",
-    value: 20,
-  },
-  {
-    name: "Docker",
-    value: 20,
+    value: 10,
   },
 ];
 
