@@ -20,9 +20,11 @@ const AboutMe = () => {
             strings={[
               "Hi! Ich bin Thorsten Alpers.",
               "Ich bin ein Fullstack Softwareentwickler.",
-              "Ich bin ein Teamplayer.",
               "Ich bin ein Softwarearchitekt.",
-              "Aktuell interessieren mich Microservices, Kubernetes, .Net Core und KI."
+              "Ich bin ein Tester.",
+              "Ich bin ein Teamplayer.",
+              // "Ich bin ein Scrum Master.",
+              "Aktuell interessieren mich Microservices, Kubernetes, .Net Core, Machnine Learning und ChatGPT."
             ]}
             startDelay={1000}
             typeSpeed={55}
