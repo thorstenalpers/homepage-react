@@ -19,11 +19,11 @@ const AboutMe = () => {
           <Typed
             strings={[
               "Hi! Ich bin Thorsten Alpers.",
+              "Ich bin ein Fullstack Softwareentwickler.",
               "Ich bin ein Visionär.",
               "Ich bin ein Softwarearchitekt.",
-              "Ich bin ein Scrum Master.",
-              "Ich bin ein Fullstack Softwareentwickler.",
               "Ich bin ein Allrounder.",
+              "Ich bin ein Scrum Master.",
               "Ich bin ein Tester.",
               "Ich bin ein Teamplayer.",
               "Aktuell interessieren mich Microservices, Kubernetes, .Net Core, Machnine Learning und ChatGPT."
